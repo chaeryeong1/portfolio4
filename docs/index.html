@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-4</title>
+     <!--이미지로드-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+  <!-- 제이쿼리 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- 테일윈드 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+
+  <!--애니메이션,와우-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!--스와이퍼-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+<script>new WOW().init();</script>
+<style>/* https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio_img/portfolio/branding/branding-text.png */
+    /* wow fadeInUp"data-wow-delay="0.6s" */
+    /* 폰트적용 */
+    @font-face {
+        font-family: 'LeferiBaseType-RegularA';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    html > body {
+      font-family: "LeferiBaseType-RegularA";
+    }
+    
+    /*커스텀 라이브러리*/
+    *{
+      padding:0;
+      margin:0;
+    }
+    
+    .con{
+      width:1920px;
+      height:auto;
+      margin:0 auto;
+    }
+    
+    @media ( min-width: 1900px ) {
+      body { overflow-x:hidden; }
+    }
+    
+    /*뜨는애니메이션 라이브러리*/
+    
+    .main-1,.main-2{
+      animation-name: infinite-01 ;
+      animation-duration: 5s;
+      animation-iteration-count: infinite ;
+      animation-timing-function: linear ; 
+    }
+    
+    
+    @keyframes infinite-01{
+      0%{
+        transform: translatey(0) ;
+      }
+      
+      50%{
+        transform: translatey(-20%);    
+      }
+      
+      100%{
+        transform: translatey(0);    
+      }
+      
+    }
+    
+    .portfolio-1{
+      background-image:url('https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/Group 296.png');
+      width:1920px;
+      height:1080px;
+    }
+    
+    .port-1{
+      left: 100px;
+    top: 32.4px;
+    }
+    .port-2{
+      left: 518px;
+    top: 41px;
+    }
+    .port-3{
+      left: 723px;
+    top: 41px;
+    }
+    .port-4{
+      left: 887px;
+    top: 41px;
+    }
+    .port-5{
+      left: 1092px;
+    top: 41px;
+    }
+    .port-6{
+      left: 1280px;
+    top: 41px;
+    }
+    
+    .port-7{
+      left: 100px;
+    top: 300px;
+    }
+    .port-8{
+      left: 100px;
+    top:380px;
+    }
+    .port-9{
+      left: 100px;
+    top: 434px;
+    }
+    .port-10{
+      left: 100px;
+    top: 488px;
+    }
+    .port-11{
+      left: 100px;
+    top: 550px;
+    }
+    .port-12{
+      left: 100px;
+    top: 715px;
+    }
+    .port-13{
+      left: 1026px;
+    top: 161px;
+    }
+    .port-13{
+      left: 1026px;
+    top: 161px;
+    }
+    .port-14{
+      left: 1651px;
+    top: 786px;
+    }
+    .port-15{
+      left: 1256px;
+    top: 916px;
+    }
+    </style>
+</head>
+<body>
+    <section class="con">
+        <section class="portfolio-1 relative">
+       
+         <span class="port-1 absolute">
+           <a href="https://main.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/로고.png" alt="">
+               
+             </a>
+         </span>
+            
+            <span class="port-2 absolute">
+               <a href="https://branding.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/BRANDING.png" alt="">
+               
+             </a>
+            </span>
+            <span class="port-3 absolute">
+               <a href="https://about.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/ABOUT.png" alt="">
+               
+             </a>
+            </span>
+            <span class="port-4 absolute">
+              <a href="https://portfolio1.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/PORTFOLIO.png" alt="">
+               
+             </a>
+            </span>
+            <span class="port-5 absolute">
+               <a href="https://process.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/PROCESS.png" alt="">
+               
+             </a>
+            </span>
+            <span class="port-6 absolute">  
+              <a href="https://experience.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/EXPERIENCE.png" alt="">
+               
+             </a></span>
+            <span class="port-7 absolute wow fadeInLeft">
+            
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-1/Select Projects.png" alt="">
+              
+            </span>
+            <span class="port-8 absolute wow fadeInDownBig">
+             <a href="https://portfolio1.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-2/Personal Website.png" alt="">
+               </a>
+          
+            </span>
+            <span class="port-9 absolute wow fadeInDownBig"data-wow-delay="0.1s" >
+               <a href="https://portfolio2.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-3/Website Renewal.png" alt="">
+            </a>
+            </span>
+            <span class="port-10 absolute wow fadeInDownBig"data-wow-delay="0.2s ">
+              <a href="https://portfolio3.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/UX.png" alt="">
+               </a>
+            
+            </span>
+          <span class="port-11 absolute wow fadeInDownBig"data-wow-delay="0.3s ">
+             
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/04. Website copying.png" alt="">
+               
+             
+          </span>
+            <span class="port-12 absolute wow fadeInUp"data-wow-delay="0.5s ">
+               <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/Group 101.png" alt="">
+            </span>
+            <span class="port-13 absolute wow fadeInDown"data-wow-delay="0.8s">
+               <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/Group 297.png" alt="">
+            </span>
+          <span class="port-14 absolute wow fadeInRight"data-wow-delay="0.9s">
+             <a href="https://portfolio4.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/Group 100.png" alt="">
+                
+             </a>
+          </span>
+          <span class="port-15 absolute wow fadeIn"data-wow-delay="1s">
+             <a href="https://p.crmmii.com">
+             <img src="https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/Group 102.png" alt="">
+               
+             </a>
+          </span>
+      
+        </section>
+      </section>
+</body>
+</html>

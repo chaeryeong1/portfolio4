@@ -1,0 +1,126 @@
+/* https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio_img/portfolio/branding/branding-text.png */
+/* wow fadeInUp"data-wow-delay="0.6s" */
+/* 폰트적용 */
+@font-face {
+    font-family: 'LeferiBaseType-RegularA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html > body {
+  font-family: "LeferiBaseType-RegularA";
+}
+
+/*커스텀 라이브러리*/
+*{
+  padding:0;
+  margin:0;
+}
+
+.con{
+  width:1920px;
+  height:auto;
+  margin:0 auto;
+}
+
+@media ( min-width: 1900px ) {
+  body { overflow-x:hidden; }
+}
+
+/*뜨는애니메이션 라이브러리*/
+
+.main-1,.main-2{
+  animation-name: infinite-01 ;
+  animation-duration: 5s;
+  animation-iteration-count: infinite ;
+  animation-timing-function: linear ; 
+}
+
+
+@keyframes infinite-01{
+  0%{
+    transform: translatey(0) ;
+  }
+  
+  50%{
+    transform: translatey(-20%);    
+  }
+  
+  100%{
+    transform: translatey(0);    
+  }
+  
+}
+
+.portfolio-1{
+  background-image:url('https://cdn.jsdelivr.net/gh/chaeryeong1/portfolio/portfolio-4/Group 296.png');
+  width:1920px;
+  height:1080px;
+}
+
+.port-1{
+  left: 100px;
+top: 32.4px;
+}
+.port-2{
+  left: 518px;
+top: 41px;
+}
+.port-3{
+  left: 723px;
+top: 41px;
+}
+.port-4{
+  left: 887px;
+top: 41px;
+}
+.port-5{
+  left: 1092px;
+top: 41px;
+}
+.port-6{
+  left: 1280px;
+top: 41px;
+}
+
+.port-7{
+  left: 100px;
+top: 300px;
+}
+.port-8{
+  left: 100px;
+top:380px;
+}
+.port-9{
+  left: 100px;
+top: 434px;
+}
+.port-10{
+  left: 100px;
+top: 488px;
+}
+.port-11{
+  left: 100px;
+top: 550px;
+}
+.port-12{
+  left: 100px;
+top: 715px;
+}
+.port-13{
+  left: 1026px;
+top: 161px;
+}
+.port-13{
+  left: 1026px;
+top: 161px;
+}
+.port-14{
+  left: 1651px;
+top: 786px;
+}
+.port-15{
+  left: 1256px;
+top: 916px;
+}
